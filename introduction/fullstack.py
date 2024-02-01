@@ -1,0 +1,11 @@
+print("Front  end")
+print("*********")
+print("HTML")
+print("CSS")
+print("Bootstrap")
+print("Javascript")
+
+print("Back End")
+print("*********")
+print("MySQL")
+print("Django")
