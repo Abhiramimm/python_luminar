@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+   /* text-decoration: line-through;
+    text-decoration: overline;*/
+}
+#second-head{
+    color: yellow;
+    text-decoration: line-through;
+}
+#third-head{
+    color: green;
+    text-decoration: overline;
+}
+.text-success{
+    color: green;
+}
+.text-danger{
+    color: red;
+}
+.text-none{
+    text-decoration: none;
+}
