@@ -1,0 +1,27 @@
+.card{
+    width: 600px;
+    height: 450px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    
+
+}
+
+.card-item{
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    margin-left: 200px;
+    padding-left:20px ;
+}
+.card-item2{
+    width: 150px;
+    height:100px;
+    background-color: brown ;
+    padding-left: 20px;
+}
+.card2{
+    margin-left: auto;
+}
