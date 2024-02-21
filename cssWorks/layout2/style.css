@@ -1,0 +1,32 @@
+.parent{
+    width:70%;
+    height: 500px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap:20px;
+    padding: 20px;
+
+}
+.child:nth-child(1){
+    background-color: chartreuse;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.child:nth-child(2){
+    background-color: chocolate;
+}
+.child:nth-child(3){
+    background-color: cornflowerblue;
+}
+.child:nth-child(4){
+    background-color: darkblue;
+}
+.child:nth-child(5){
+    background-color: darkgoldenrod;
+    grid-row-start: 1;
+    grid-row-end:4 ;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
