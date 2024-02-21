@@ -1,0 +1,68 @@
+.parent{
+    width: 80%;
+    height: 600px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+  
+}
+.child{
+    width:12%;
+    height: 180px;
+
+}
+.child:nth-child(1){
+    background-color: aqua;
+
+}
+.child:nth-child(2){
+    background-color: blueviolet;
+}
+.child:nth-child(3){
+    background-color: chartreuse;
+}
+.child:nth-child(4){
+    background-color: chocolate;
+}
+.child:nth-child(5){
+    background-color: cornflowerblue;
+}
+.parent2{
+    width: 80%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.child2{
+    width:12%;
+    height: 180px;
+
+}
+.child2:nth-child(1){
+    background-color: cornflowerblue;
+}
+.child2:nth-child(2){
+    background-color: darkmagenta;
+}
+.child2:nth-child(3){
+    background-color: darkslategrey;
+    
+}
+.child2:nth-child(4){
+    background-color: darkblue;
+}
+.child2:nth-child(5){
+    background-color: coral;
+}
+.child2:nth-child(6){
+    background-color: darkred;
+}
+.child2:nth-child(7){
+    background-color: dodgerblue;
+}

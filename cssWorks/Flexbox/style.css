@@ -1,0 +1,46 @@
+.parent{
+    width: 80%;
+    height: 200px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+  
+}
+.child{
+    width:8%;
+    height: 100px;
+
+}
+.child:nth-child(1){
+    background-color: aqua;
+
+}
+.child:nth-child(2){
+    background-color: blueviolet;
+}
+.child:nth-child(3){
+    background-color: chartreuse;
+}
+.child:nth-child(4){
+    background-color: chocolate;
+}
+.child:nth-child(5){
+    background-color: cornflowerblue;
+}
+
+.child:nth-child(6){
+    background-color: crimson;
+}
+.child:nth-child(7){
+    background-color: darkmagenta;
+}
+.child:nth-child(8){
+    background-color: darkslategrey;
+    
+}
+.child:nth-child(9){
+    background-color: darkblue;
+}
