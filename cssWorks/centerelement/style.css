@@ -1,0 +1,19 @@
+.box{
+    width: 400px;
+    height:400px ;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    width: 60%;
+    height: 300px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
