@@ -1,0 +1,151 @@
+body{
+    background-color: lightgrey;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.parent{
+    width: 96%;
+    min-height: 400px;
+    background-color:lightgrey;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 50% 50%;
+    grid-gap:20px;
+    padding: 20px;
+
+}
+.child{
+    background-color: white;
+}
+
+.child:nth-child(1){
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 95%;
+}
+.box-padding{
+    padding-left: 20px;
+}
+.child:nth-child(3){
+    height: 90%;
+    padding: 20px;
+}
+.child:nth-child(2){
+    padding: 20px;
+}
+/*.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+ }*/
+ footer {
+    position: absolute;
+    text-align: center;
+    padding: 3px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 100px;
+    left: 0;
+  }
+
+/*.child:nth-child(4){
+    grid-column-start:1 ;
+    grid-column-end:3;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}*/
+hr{
+    border-color:white;
+}
+h3,h1{
+    color: gray;
+}
+h4{
+    color: blue;
+}
+.text-gray{
+    color: gray;
+}
+.icon-color{
+    color:rgb(0, 81, 255);
+}
+.icon-space{
+    padding-right: 20px;
+}
+.container1 img{
+    width: 100%;
+    min-height: 100px;
+    object-fit: cover;
+}
+.container1 {
+    position: relative;
+    color: white;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  .skill { 
+    background-color:blue; 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 10px; 
+    border-radius: 15px; 
+} 
+
+.skill1 { 
+    width: 90%; 
+} 
+.skill2 { 
+    width: 80%; 
+} 
+.skill3 { 
+    width: 75%; 
+} 
+.skill4 { 
+    width: 50%; 
+} 
+.container2 { 
+    background-color: rgb(192, 192, 192); 
+    width: 80%; 
+    border-radius: 15px;
+    
+}
+.lang1{
+    width: 100%;
+    height: 20px;
+}
+.lang2{
+    width: 80%;
+    height: 20px;
+} 
+.lang3{
+    width: 65%;
+    height: 20px;
+}
+.bt{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 5px;
+
+}
+.skill-size{
+    text-align: center;
+    font-size: 15px;
+}
+
+
